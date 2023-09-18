@@ -1,0 +1,77 @@
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+.titleStyle{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#11998e, #38ef7d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 20px;
+}
+
+.product {
+  border-radius: 15px;
+  min-width: 300px;
+  min-height: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  transition: transform 0.3s ease-in; /* Add a transition for smooth scaling */
+}
+      
+.products{
+  width: 60%;
+  margin: auto ;
+  
+}
+.parastyle{
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.product{
+  
+  padding: 20px;
+}
+.product:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Scale up the product on hover */
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+}
+
+.product .description {
+  text-align: center;
+  font-size: 18px;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 5px solid rgb(7, 79, 19);
+  min-width: 150px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(1, 252, 143);
+  color: rgb(20, 19, 19);
+  cursor: pointer;
+}

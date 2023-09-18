@@ -1,0 +1,65 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #03bcaa; /* Change to a different color */
+  display: flex;
+  justify-content: space-between; /* Center content horizontally with space on both sides */
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 0 20px; /* Add some padding to the navbar */
+  position: fixed; /* Fixed position for sticky navbar */
+  top: 0;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.navbar-logo {
+  font-size: 24px; /* Increase the logo font size */
+  color: #fff; /* Change text color to white */
+  text-decoration: none; /* Remove underlines */
+  font-weight: bold; /* Make the logo text bold */
+}
+
+.navbar-menu {
+  list-style: none; /* Remove list bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navflex{
+  display: flex;
+  
+}
+.logo{
+  color: white;
+}
+.navbar-menu-item {
+  margin-right: 20px; /* Add some spacing between menu items */
+}
+
+.navbar-menu-item:last-child {
+  margin-right: 0; /* Remove right margin from the last menu item */
+}
+
+.navbar-menu-item a {
+  text-decoration: none;
+  color: #fff; /* Change menu item text color to white */
+  transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.navbar-menu-item a:hover {
+  color: #e74c3c; /* Change color on hover to a different color */
+}
+
+
+.links {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 25px;
+}
